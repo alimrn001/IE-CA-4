@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login Page</title>
+        <!-- Bootstrap -->
+        <link href="../assets/styles/login-styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+
+  
+
+
+    <body>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-top">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="../assets/img/Baloot.svg" alt="" width="45" height="45" class="d-inline-block align-text">
+                        <a class="app-name-navbar">Baloot</a>
+                    </a>
+    
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="btn btn-primary btn-register" href="#" role="button">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+
+        <div class="form">
+            <h2>Baloot Account Login</h2>
+            <p class="welcome-msg">Welcome back! You can log In with your username here!</p>
+
+      
+            <form class="login-from" action="" method="POST">
+                <div class="form-group">
+                    <label>Email</label>
+                    <input name="username" type="text" class="form-control form-field" required>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input name="password" type="password" class="form-control form-field" required>
+                </div>
+                <button type="submit", class="btn btn-default login-btn">Log In</button>
+            </form>
+            
+            <div class="reg-link">
+                <a class="reg-msg" href="#"><b>Register now</b></a>      
+            </div>
+        </div>
+
+        <footer class="container-fluid fixed-bottom footer">
+            <div class="row bg-dark">
+                <div class="footer-txt">
+                    2023 @UT
+                </div>    
+            </div>
+        </footer>
+  <!-- <header>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark" aria-label="Third navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="./assets/img/bitcoin-btc-logo.svg" width="40px" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbars" aria-controls="navbars" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbars">
+                <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+                  
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false"><img src="./assets/img/grid-3x3-gap-fill.svg" width="20px" alt="" style="background-color: white"></a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown01">
+                        <li><a class="dropdown-item" href="#" style="color: white">Exchange</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">AInstitutional Services</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">DEX</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">Research</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">Academy</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">Charity</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">Labs</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">Trust Wallet</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">Broker</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">Cloud</a></li>
+                        <li><a class="dropdown-item" href="#" style="color: white">Launchpad</a></li>
+                    </ul>
+                  </li>
+                 
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">Buy Crypto <span class="badge rounded-pill bg-warning text-dark">EUR</span> </a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown02">
+                      <li><a class="dropdown-item" href="#" style="color: white">Card Deposit</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Credit/Debit Card</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">P2P Trading</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Cash Balance</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Third-party Payment</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white">Market</a>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown03" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">Trade</a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown03">
+                      <li><a class="dropdown-item" href="#" style="color: white">Convert</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Classic</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Advanced</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Margin</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">P2P</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Stock Token</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">Derivatives</a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown04">
+                      <li><a class="dropdown-item" href="#" style="color: white">Binance Futures Overview</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Responsible Trading</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">USD-M Futures</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">COIN-M Futures</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Vanilla Options</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Leveraged Tokens</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Battle</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown05" data-bs-toggle="dropdown" aria-expanded="false" style="color: white">Finance</a>
+                    <ul class="dropdown-menu bg-dark" aria-labelledby="dropdown05">
+                      <li><a class="dropdown-item" href="#" style="color: white">Binance Earn</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Binance Pool</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Binance Visa Card</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Crypto Loans</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Liquid Swap</a></li>
+                      <li><a class="dropdown-item" href="#" style="color: white">Binance Pay</a></li>
+                    </ul>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#" style="color: white">NFT <span class="badge rounded-pill bg-warning text-dark">New</span></a>
+                  </li>
+                </ul>
+
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white">
+                          Log In
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-warning">Register</button>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white">
+                          Download
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white">
+                          English
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="color: white">
+                          USD
+                        </a>
+                    </li>
+                </ul>
+
+              </div>
+            </div>
+          </nav>
+    </header> -->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    </body>
+</html>
