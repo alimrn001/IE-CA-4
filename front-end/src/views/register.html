@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Login Page</title>
+        <title>Register Page</title>
         <!-- Bootstrap -->
-        <link href="../assets/styles/login-styles.css" rel="stylesheet">
+        <link href="../assets/styles/register-styles.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
 
@@ -33,28 +33,47 @@
 
 
         <div class="form">
-            <h2>Baloot Account Login</h2>
-            <p class="welcome-msg">Welcome back! You can log In with your username here!</p>
-
+            <h2>Register in Baloot</h2>
+            <p class="welcome-msg">Complete the form below toregister in Baloot!</p>
       
-            <form class="login-from" action="" method="POST">
+            <form class="register-from" action="" method="POST">
                 <div class="form-group">
-                    <label>Email</label>
+                    <label>First name</label>
+                    <input name="firstname" type="text" class="form-control form-field" required>
+                </div>
+                <div class="form-group">
+                    <label>Last name</label>
+                    <input name="lastname" type="text" class="form-control form-field" required>
+                </div>
+                <div class="form-group">
+                    <label>Username</label>
                     <input name="username" type="text" class="form-control form-field" required>
                 </div>
                 <div class="form-group">
                     <label>Password</label>
                     <input name="password" type="password" class="form-control form-field" required>
                 </div>
-                <button type="submit", class="btn btn-default login-btn">Log In</button>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input name="username" type="email" class="form-control form-field" required>
+                </div>
+                <div class="form-group">
+                    <label>Birthday</label>
+                    <input name="birthday" type="date" class="form-control form-field" required>
+                </div>
+                <div class="form-group">
+                    <label>Address</label>
+                    <input name="address" type="text" class="form-control form-field" required>
+                </div>
+                <button type="submit", class="btn btn-default register-btn">Register</button>
             </form>
             
-            <div class="reg-link">
-                <a class="reg-msg" href="#"><b>Register now</b></a>      
+            <div class="login-link">
+                <a class="login-msg" href="#"><b>Already have account? Login</b></a>      
             </div>
         </div>
 
-        <footer class="container-fluid fixed-bottom footer">
+        <footer class="container-fluid footer">
             <div class="row bg-dark">
                 <div class="footer-txt">
                     2023 @UT
