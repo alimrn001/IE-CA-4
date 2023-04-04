@@ -9,13 +9,13 @@
         <link href="../assets/styles/register-styles.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     </head>
-
+    
   
 
 
-    <body>
+    <body class="bg-light">
         <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-top">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-top fixed-top shadow-sm rounded">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="../assets/img/Baloot.svg" alt="" width="45" height="45" class="d-inline-block align-text">
@@ -24,56 +24,57 @@
     
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="btn btn-primary btn-register" href="#" role="button">Register</a>
+                            <a class="btn btn-primary btn-login-nv" href="#" role="button">Login</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
 
-
-        <div class="form">
-            <h2>Register in Baloot</h2>
-            <p class="welcome-msg">Complete the form below toregister in Baloot!</p>
+        <div class="bg-light page-body">
+            <div class="form">
+                <h2>Register in Baloot</h2>
+                <p class="welcome-msg">Complete the form below to register in Baloot!</p>
       
-            <form class="register-from" action="" method="POST">
-                <div class="form-group">
-                    <label>First name</label>
-                    <input name="firstname" type="text" class="form-control form-field" required>
-                </div>
-                <div class="form-group">
-                    <label>Last name</label>
-                    <input name="lastname" type="text" class="form-control form-field" required>
-                </div>
-                <div class="form-group">
-                    <label>Username</label>
-                    <input name="username" type="text" class="form-control form-field" required>
-                </div>
-                <div class="form-group">
-                    <label>Password</label>
-                    <input name="password" type="password" class="form-control form-field" required>
-                </div>
-                <div class="form-group">
-                    <label>Email</label>
-                    <input name="username" type="email" class="form-control form-field" required>
-                </div>
-                <div class="form-group">
-                    <label>Birthday</label>
-                    <input name="birthday" type="date" class="form-control form-field" required>
-                </div>
-                <div class="form-group">
-                    <label>Address</label>
-                    <input name="address" type="text" class="form-control form-field" required>
-                </div>
-                <button type="submit", class="btn btn-default register-btn">Register</button>
-            </form>
+                <form class="register-from" action="" method="POST">
+                    <div class="form-group">
+                        <label>First name</label>
+                        <input name="firstname" type="text" class="form-control form-field" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Last name</label>
+                        <input name="lastname" type="text" class="form-control form-field" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Username</label>
+                        <input name="username" type="text" class="form-control form-field" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Password</label>
+                        <input name="password" type="password" class="form-control form-field" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Email</label>
+                        <input name="username" type="email" class="form-control form-field" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Birthday</label>
+                        <input name="birthday" type="date" class="form-control form-field" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Address</label>
+                        <input name="address" type="text" class="form-control form-field" required>
+                    </div>
+                    <button type="submit", class="btn btn-default register-btn">Register</button>
+                </form>
             
-            <div class="login-link">
-                <a class="login-msg" href="#"><b>Already have account? Login</b></a>      
+                <div class="login-link">
+                    <a class="login-msg" href="#"><b>Already have account? Login</b></a>      
+                </div>
             </div>
         </div>
 
-        <footer class="container-fluid footer">
+        <footer class="container-fluid fixed-bottom footer">
             <div class="row bg-dark">
                 <div class="footer-txt">
                     2023 @UT

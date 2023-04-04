@@ -1,28 +1,33 @@
-.navbar-top {
-    color: white;
-}
 .navbar-brand {
     margin-left: 15px;
 }
-.app-name-navbar {
+.app-name-navbar, .app-name-navbar:hover {
     color: #A97B47; 
     font-size: 25px; 
     text-decoration: none;
 }
-.btn-register {
-    background-color: #A97B47 !important;
-    border-color: #A97B47 !important;
+.btn-login-nv {
+    background-color: #F7F0E9 !important;
+    border-color: #F7F0E9 !important;
+    color: #A97B47 !important;
+    width: 100px !important;
+    border-radius: 10px !important;
     margin-right: 15px;
+    font-size: 18px !important;
 }
 .register-btn {
-    background-color: #A97B47 !important; 
+    color: white !important;
+    background-color: #A97B47 !important;
     width: 35%;
+    font-size: 18px !important;
     height: 50px;
-    margin-bottom: 20px"
+    margin-bottom: 20px";
+}
+.page-body {
+    margin-top: 100px;
 }
 .form {
-    margin-left: 25%; 
-    margin-top: 10px;
+    margin-left: 25%;
 }
 .form-field {
     width: 35% !important;  
@@ -39,7 +44,7 @@
 }
 .login-link {
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .login-msg {
     text-decoration: none; color: #A97B47; 
