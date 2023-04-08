@@ -77,9 +77,9 @@ body {
   background-color: #593C1C;
   color: #F5F5F5;
   font-weight: 600;
-text-align: center;
-margin-top: 15px;
-padding: 2px;
+  text-align: center;
+  margin-top: 150px;
+  padding: 2px;
 }
 .vertical-center {
   position: absolute;
