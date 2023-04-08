@@ -31,11 +31,24 @@ body {
   margin-right: 15px;
   font-size: 18px !important;
 }
-
+.btn-cart-nv{
+  background-color: #593C1C !important;
+  border-color: #593C1C !important;
+  color: #f5f5f5 !important;
+  width: 100px !important;
+  border-radius: 10px !important;
+  margin-right: 15px;
+  font-size: 18px !important;
+}
 .home-btn {
   background-color: #A97B47 !important;
   border-color: #A97B47 !important;
   color: white !important;
+}
+.username{
+  margin: 15px 55px;
+  font-weight: 700;
+  font-size: large;
 }
 .footer-txt {
   color: white; 
@@ -45,7 +58,9 @@ body {
 
 .user-detail{
   background: #fff;
+  border-radius: 15px;
   padding: 2%;
+  margin-bottom: 8vh;
 }
 .width{
   width: 80vw;
@@ -80,10 +95,25 @@ padding: 2px;
   color: #A97B47;
   
 }
+
+.amount_inbox{
+  text-align: center;
+  width: 35vw;
+  border-radius: 10px;
+}
+.budget_width{
+  /* width: 35vw; */
+  margin: 0;
+  padding-left: -40px;
+  font-size: 500%;
+  font-weight: 900;
+}
 .budget{
   color: #593c1c;
-  font-weight: 800;
-  width: 30vw;
+  margin: 0;
+  /* padding: 0; */
+  /* width: fit-content; */
+  /* text-align: center; */
 
 }
 .white_button{
@@ -96,14 +126,30 @@ padding: 2px;
   border-radius: 5px;;
   border-color: #909090;
 }
+
+.brown_button_amount{
+  background-color: #593C1C;
+  margin-top: 10px;
+  padding: 6px;
+  color: #F5F5F5;
+  width: 35vw;
+  border-radius: 10px;
+}
 .brown_button{
   background-color: #593C1C;
-  margin: 9px;
-  padding: 3px;
+  margin: 4vh 9px;
+  padding: 6px;
   color: #F5F5F5;
   width: 30vw;
-}
+  border-radius: 10px;
 
+}
+.brown_button:hover{
+  color: #F5F5F5;
+}
+.brown_button_amount:hover{
+  color: #F5F5F5;
+}
 .brown{
   color: #593c1c;
 }
@@ -112,6 +158,9 @@ padding: 2px;
 }
 .red{
   color: #c82525;
+}
+.mt-20{
+  margin-top: 20vh;
 }
 /* p {
   color: #b3b3b3;
@@ -139,11 +188,17 @@ h2 {
   .custom-table thead tr, .custom-table thead th {
     border-top: none;
     border-bottom: none !important;
-    border-radius: 10px !important;
-  
+ 
     background: #fff;
 
   }
+
+  .custom-table thead tr th:first-child, .custom-table thead tr td:first-child {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; }
+  .custom-table thead tr th:last-child, .custom-table thead tr td:last-child {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; }
 
 /* 
   .custom-table thead tr:not(.spacer) {
@@ -164,6 +219,10 @@ h2 {
     padding-bottom: 10px;
     padding-top: 10px;
   }
+
+
+
+
 
   .custom-table thead tr {
     border-radius: 10px;
@@ -223,6 +282,7 @@ h2 {
       height: 15px;
       border-radius: 0 !important;
       background: transparent !important; }
+
 
 /* Custom Checkbox */
 /* .control {
