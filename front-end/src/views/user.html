@@ -2,98 +2,83 @@
 <html lang="en">
 
 <head>
+
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>User</title>
   <!-- Bootstrap -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-
   <link href="../assets/styles/user-styles.css" rel="stylesheet">
-  
-
-
-  <!-- Normalize CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-
-
-  <link rel="stylesheet" href="css/owl.carousel.min.css">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="bcss/bootstrap.min.css">
-
-  <!-- Style -->
-  <link rel="stylesheet" href="css/user-style.css">
-
-  <link href="./css/product.css" rel="stylesheet">
-
-
-
 
 </head>
 
 <body>
+
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-top fixed-top shadow-sm rounded">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img src="../assets/img/Baloot.svg" alt="" width="45" height="45" class="d-inline-block align-text">
-          <a class="app-name-navbar">Baloot</a>
+
+        <a class="navbar-brand" href="home.html">
+          <img src="../assets/img/Baloot.svg" alt="" width="55" height="55" class="d-inline-block align-text">
+          <a class="app-name-navbar align-middle">Baloot</a>
         </a>
 
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <p class="brown username">#Marshal</p>
+            <p class="username">#Marshal</p>
             <!-- <a class="btn btn-primary btn-register-nv" href="register.html" role="button">#Marshal</a> -->
           </li>
         </ul>
+
         <ul class="navbar-nav ">
           <li class="nav-item">
-
-            <div class="d-flex justify-content-between btn btn-primary btn-cart-nv">
-              <div>
-                Cart
+            <a href="#" class="user-cart-reference">
+              <div class="d-flex justify-content-between btn btn-primary btn-cart-nv">
+                <div>
+                  Cart
+                </div>
+                <div>
+                  1
+                </div>
               </div>
-              <div>
-                1
-              </div>
-            </div>
+            </a>
           </li>
         </ul>
+
       </div>
     </nav>
   </header>
 
-  <div class="container" style="margin-top: 100px;">
+  <div class="container body-container">
 
-    <div class="row  ">
+    <div class="row">
       <div class="container user-detail">
         <div class="row">
           <div class="col-6">
 
-            <p><img src="../assets/img/Vector (4).png" style="width: 15px;" alt=""> Marshal</p>
-            <p><img src="../assets/img/Vector (5).png" style="width: 15px;" alt=""> Marshal.Mathers@gmail.com</p>
-            <p><img src="../assets/img/Vector (6).png" style="width: 15px;" alt=""> 1972/10/17</p>
-            <p><img src="../assets/img/Vector (7).png" style="width: 15px;" alt=""> 20785 Schultes Avenue, Warren, MI
+            <p><img src="../assets/img/Vector (4).png" class="user-info-item" alt=""> Marshal</p>
+            <p><img src="../assets/img/Vector (5).png" class="user-info-item" alt=""> Marshal.Mathers@gmail.com</p>
+            <p><img src="../assets/img/Vector (6).png" class="user-info-item" alt=""> 1972/10/17</p>
+            <p><img src="../assets/img/Vector (7).png" class="user-info-item" alt=""> 20785 Schultes Avenue, Warren, MI
               48091</p>
 
           </div>
           <div class="col-6">
             <div class="container">
               <div class="row budget">
-                <h1 class="" >$10000000</h1>
+                <h1 class="">$10000000</h1>
               </div>
             </div>
             <form action="" method="post">
               <div class="row form-outline">
-                <input type="number" class="form-control amount_inbox" id="creditAmount" min="0" placeholder="$Amount">
-
-                <!-- <textarea class="form-control amount_inbox" id="amount"  rows="1" placeholder="$Amount" ></textarea> -->
+                <input type="number" class="form-control amount-inbox" id="creditAmount" min="0" placeholder="$Amount"
+                  required>
               </div>
               <div class="row">
-                <button class="btn brown_button_amount" type="submit">
+                <button class="btn add-credit-button" type="submit">
                   Add more credit
                 </button>
               </div>
@@ -104,7 +89,7 @@
       </div>
     </div>
 
-    <h3 class="brown"><img src="../assets/img/Vector (2).png" style="width: 25px;" alt=""> Cart</h3>
+    <h3 class="text-brown"><img src="../assets/img/Vector (2).png" class="cart-img" alt=""> Cart</h3>
 
     <div class="row">
       <div class="table-responsive custom-table-responsive">
@@ -119,31 +104,31 @@
               <th scope="col">Rating</th>
               <th scope="col">In Stock</th>
               <th scope="col">In Cart</th>
-
             </tr>
+          </thead>
           <tbody>
             <tr class="spacer">
               <td colspan="100"></td>
             </tr>
 
             <tr>
-              <th scope="row"><span><img src="../assets/img/phone.png"
-                    style="width: 60px; margin-left: 10%; margin-top: -1.5%;"></span> </th>
+              <th scope="row"><a href="product.html"><img src="../assets/img/phone.png" class="cart-product-img"></a>
+              </th>
               <td>Galexy S21</td>
               <td>Technology, Phone</td>
               <td>$21000000</td>
               <td>1234</td>
               <td>
-                <p class="yellow">8.3</p>
+                <p class="text-yellow">8.3</p>
               </td>
               <td>
-                <p class="red">17</p>
+                <p class="text-red">17</p>
               </td>
               <td>
                 <div class="counter-btn d-flex justify-content-around">
-                  <div><button class="buttonn">-</button></div>
-                  <div><button class="buttonn">1</button></div>
-                  <div><button class="buttonn">+</button></div>
+                  <div><button class="counter-btn-item">-</button></div>
+                  <div><button class="counter-btn-item">1</button></div>
+                  <div><button class="counter-btn-item">+</button></div>
                 </div>
                 <!-- <input placeholder="1" type="number" value="" min="1" class="form-control"/> -->
               </td>
@@ -155,16 +140,16 @@
 
     <div class="row">
       <div>
-        <button class="btn brown_button vertical-center" type="submit">
+        <button class="btn pay-button vertical-center" type="submit">
           Pay now!
         </button>
       </div>
     </div>
 
-    <h3 class="brown mt-20"><img src="../assets/img/Vector (3).png" style="width: 25px;" alt=""> History</h3>
+    <h3 class="text-brown mt-20"><img src="../assets/img/Vector (3).png" class="cart-img" alt=""> History</h3>
 
     <div class="table-responsive">
-      <table class="table custom-table" style="margin-bottom: 0%;">
+      <table class="table custom-table">
         <thead>
           <tr>
             <th scope="col">Image</th>
@@ -175,49 +160,68 @@
             <th scope="col">Rating</th>
             <th scope="col">In Stock</th>
             <th scope="col">Quantity</th>
-
           </tr>
         </thead>
+
         <tbody>
           <tr class="spacer">
             <td colspan="100"></td>
           </tr>
 
           <tr>
-            <th scope="row"><span><img src="../assets/img/spaghetti.png"
-                  style="width: 60px; margin-left: 10%; margin-top: -1.5%;"></span> </th>
-
-            <td>Mom's Spaghetti</td>
-            <td>Food</td>
-            <td>$60000</td>
-            <td>313</td>
+            <th scope="row"><a href="product.html"><img src="../assets/img/spaghetti.png" class="cart-product-img"></a>
+            </th>
             <td>
-              <p class="yellow">10</p>
+              <p>Mom's Spaghetti</p>
             </td>
             <td>
-              <p class="red">0</p>
+              <p>Food</p>
             </td>
-            <td>3</td>
+            <td>
+              <p>$60000</p>
+            </td>
+            <td>
+              <p>313</p>
+            </td>
+            <td>
+              <p class="text-yellow">10</p>
+            </td>
+            <td>
+              <p class="text-red">0</p>
+            </td>
+            <td>
+              <p>3</p>
+            </td>
           </tr>
+
           <tr class="spacer">
             <td colspan="100"></td>
           </tr>
 
           <tr>
-            <th scope="row"><span><img src="../assets/img/microphone.png"
-                  style="width: 60px; margin-left: 10%; margin-top: -1.5%;"></span> </th>
-
-            <td>Dre's Microphone</td>
-            <td>Technology</td>
-            <td>$4200000</td>
-            <td>4321</td>
+            <th scope="row"><a href="product.html"><img src="../assets/img/microphone.png" class="cart-product-img"></a>
+            </th>
             <td>
-              <p class="yellow">8.5</p>
+              <p>Dre's Microphone</p>
             </td>
             <td>
-              <p class="red">22</p>
+              <p>Technology</p>
             </td>
-            <td>1</td>
+            <td>
+              <p>$4200000</p>
+            </td>
+            <td>
+              <p>4321</p>
+            </td>
+            <td>
+              <p class="text-yellow">8.5</p>
+            </td>
+            <td>
+              <p class="text-red">22</p>
+            </td>
+            <td>
+              <p>1</p>
+            </td>
           </tr>
 
         </tbody>
@@ -229,8 +233,6 @@
   <footer class="footer">
     <p>2023@ut</p>
   </footer>
-  </div>
-
 
 </body>
 
